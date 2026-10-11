@@ -27,6 +27,7 @@ const userSchema = new mongoose.Schema({
         required: true,
         select: false,
         // here with select we ensure that when we select the user then password must not travel with the information of user
+    // aap user par jo bhi find query lagao ge , then password by default nhi aayega    
     },
     socketId: {
         type: String,
