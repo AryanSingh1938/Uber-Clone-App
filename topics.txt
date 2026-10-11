@@ -1,0 +1,20 @@
+Mongoose-> it is object data modelling(ODM) library for mongodb and node.
+It allows us to create models for database, check the correctness of data, etc.
+
+THe architecture which i am using in this folder is known as client-server architecture..
+
+The different types of architecture:
+1. Client-Server architecture: The client sends a request, the server processes it, and the server returns a response.
+2. Monolithic Architecture: A monolithic architecture packages most backend functionality into one application that is developed and deployed as a unit.
+3. Three-Tier Architecture: Client–server describes the relationship between communicating parties; three-tier architecture describes the logical division into three tiers. A three-tier application is often also a client–server application.
+4. MVC: Model View controller: 
+MVC separates an application into three responsibilities.
+Model: Represents data, such as a user or product.
+
+View: Displays the user interface.
+
+Controller: Processes input and coordinates the response.
+
+Middleware: In Express.js, middleware is a function that executes during the request-response cycle. It can inspect a request, modify it, perform some task, and decide whether to pass control to the next middleware or send a response.
+
+npx nodemon is a command used in Node.js development to automatically restart your server whenever you change your code.
