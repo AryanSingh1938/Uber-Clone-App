@@ -18,3 +18,4 @@ Controller: Processes input and coordinates the response.
 Middleware: In Express.js, middleware is a function that executes during the request-response cycle. It can inspect a request, modify it, perform some task, and decide whether to pass control to the next middleware or send a response.
 
 npx nodemon is a command used in Node.js development to automatically restart your server whenever you change your code.
+A cookie is a small piece of data that a website stores in your browser.
